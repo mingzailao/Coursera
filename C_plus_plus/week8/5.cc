@@ -17,4 +17,5 @@ public:
 int main(){
     A a[]={A(1),A(2),A(3),A(4),A(5)};
     cout<<binary_search(a,a+4,A(9));
+    return 0;
 }
